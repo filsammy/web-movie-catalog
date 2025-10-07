@@ -1,0 +1,117 @@
+/* Full body background */
+body,
+html,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: url('https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+}
+
+/* Optional: style container cards to stand out */
+.card,
+.shadow {
+  background: rgba(255, 255, 255, 0.05);
+  /* semi-transparent for contrast */
+  backdrop-filter: blur(10px);
+  /* nice frosted effect */
+  border: none;
+  color: #fff;
+}
+
+/* Custom Navbar */
+.custom-navbar {
+  background: #6f42c1 !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.custom-navbar .navbar-brand {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #fff !important;
+}
+
+.custom-navbar .nav-link {
+  color: #e0d7f5 !important;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #ffffff !important;
+  transform: scale(1.05);
+}
+
+.custom-navbar .navbar-toggler {
+  border-color: #d3bdf6;
+}
+
+.custom-navbar .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/ %3E%3C/svg%3E");
+}
+
+.movie-card {
+  background: rgba(0, 0, 0, 0.5);
+  /* semi-transparent dark */
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.movie-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.movie-card .movie-img {
+  height: 250px;
+  object-fit: cover;
+}
+
+.movie-card .card-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.movie-card .btn-primary {
+  background-color: #8e44ad;
+  /* Stremio-like purple */
+  border-color: #8e44ad;
+}
+
+.movie-card .btn-primary:hover {
+  background-color: #732d91;
+  border-color: #732d91;
+}
+
+.comment-card {
+  background: rgba(255, 255, 255, 0.05);
+  /* slightly transparent for dark bg */
+  color: #fff;
+  border-radius: 8px;
+  padding: 0.75rem;
+  margin-bottom: 0.75rem;
+  transition: background 0.3s;
+}
+
+.comment-card:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.comment-card small {
+  color: #ccc;
+}
+
+.btn-primary {
+  background-color: #8e44ad;
+  /* Stremio-like purple */
+  border-color: #8e44ad;
+}
