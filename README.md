@@ -1,5 +1,9 @@
 # Movie Catalog App Documentation
 
+Frontend: https://web-movie-catalog.vercel.app/
+---
+Backend: https://web-movie-catalog.onrender.com
+
 ## Overview
 A full-stack movie catalog application where users can browse movies, add comments, and admins can manage the movie collection.
 
